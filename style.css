@@ -107,7 +107,7 @@ form.d-flex .form-control::placeholder {
 }
 
 #title-section {
-  background-image: url("/assets/Paisagem_1.jpeg");
+  background-image: url("assets/Paisagem_1.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   width: 70vw;
