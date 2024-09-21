@@ -12,6 +12,9 @@
 html,
 body {
   margin: 0;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
   padding: 0;
   background-color: var(--light-yellow);
 }
@@ -33,6 +36,12 @@ header .container-fluid {
   background-color: var(--dark-brown);
   padding: 10px 30px 10px 30px;
   margin: 0;
+}
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-yellow);
 }
 
 .logo {
@@ -110,27 +119,57 @@ form.d-flex .form-control::placeholder {
   background-image: url("assets/Paisagem_1.jpeg");
   background-position: center;
   background-repeat: no-repeat;
+  max-height: 300px;
   width: 70vw;
   height: 70vh;
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: var(--light-yellow);
 }
-#title-container {
+#title-section-ex-1 {
+  background-image: url("assets/culto_dioniso.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 300px;
+  width: 70vw;
+  height: 70vh;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--light-yellow);
+}
+#title-container,
+#title-container-ex-1 {
   background-color: var(--beige);
-  opacity: 0.6;
+  opacity: 0.7;
   padding: 50px;
 }
-#title-container h1 {
+#title-container h1,
+#title-container-ex-1 h1 {
   font-family: "Baskervville SC", serif;
   font-size: 50px;
   color: var(--dark-brown) !important;
 }
+#vertical-card-section a {
+  text-decoration: none;
+  color: var(--dark-brown);
+}
+#horizontal-card-section {
+  margin-top: 30px;
+}
+#horizontal-card-section a {
+  text-decoration: none;
+  color: var(--dark-brown);
+}
 
 .card {
   margin-bottom: 30px;
+  text-decoration: none;
 }
 .card-body {
   display: flex;
@@ -139,20 +178,22 @@ form.d-flex .form-control::placeholder {
 }
 .card-img-top {
   max-width: 300px;
+  display: block;
   margin: 20px auto;
   border-radius: 0 !important;
 }
 .card-title {
   font-family: "Baskervville SC", serif;
-  font-size: 24px;
+  font-size: 30px;
   color: var(--dark-brown) !important;
 }
 .card-date-text {
   font-family: "Baskervville SC", serif;
-  font-size: 14px;
+  font-size: 18px;
   color: var(--dark-brown) !important;
 }
-.see-more-box {
+.see-more-box,
+.see-all-box {
   display: inline-flex;
   align-items: center;
   cursor: pointer;
@@ -161,25 +202,43 @@ form.d-flex .form-control::placeholder {
   padding: 5px;
   align-self: flex-end;
 }
-.see-more-box:hover {
+
+.see-all-box {
+  margin-left: 7.5%;
+  margin-bottom: 30px;
+}
+.see-more-box:hover,
+.see-all-box:hover,
+.see-more-horizontal-box:hover {
   border: var(--yellow) 1px solid;
   transition: 0.3s;
 }
-.see-more-box:active {
+.see-more-box:active,
+.see-all-box:active,
+.see-more-horizontal-box:active {
   border: var(--dark-yellow) 1px solid;
   transition: 0.3s;
 }
 
-.see-more-text {
+.see-more-text,
+.see-all-text {
   margin: 2px;
   color: var(--dark-brown);
   transition: 0.3s;
+  font-family: "Baskervville SC", serif;
 }
-.see-more-text:hover {
+.see-all-text {
+  font-size: 18px;
+}
+.see-more-text:hover,
+.see-all-text:hover,
+.seel-more-horizontal-text:hover {
   color: var(--yellow);
   transition: 0.3s;
 }
-.see-more-text:active {
+.see-more-text:active,
+.see-all-text:active,
+.see-more-horizontal-text:active {
   color: var(--dark-yellow);
   transition: 0.3s;
 }
@@ -188,12 +247,18 @@ form.d-flex .form-control::placeholder {
   height: 20px;
   fill: var(--dark-brown) !important;
 }
+#horizontal-card-section .card-img-left {
+  max-width: 250px;
+  max-height: 250px;
+  margin: 20px 20px;
+}
 
 footer {
   background-color: var(--dark-brown);
   color: var(--beige);
   padding: 20px;
   margin-bottom: 0;
+  margin-top: auto;
   padding: 30px 30px;
   text-decoration: none;
 }
@@ -218,4 +283,48 @@ footer a:hover {
 footer a:active {
   color: var(--dark-yellow);
   transition: 0.3s;
+}
+#title-about {
+  font-family: "Baskervville SC", serif;
+  font-size: 38px;
+  color: var(--dark-brown) !important;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.p-about {
+  font-family: "archivo", sans-serif;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 10px;
+  text-align: justify;
+  margin-right: 50px;
+}
+#meme-cat {
+  max-width: 300px;
+  margin: 30px auto;
+}
+.titulos-propostas {
+  font-family: "Baskervville SC", serif;
+  font-size: 28px;
+  color: var(--dark-brown) !important;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+.texto-exercicios {
+  font-family: "archivo", sans-serif;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 10px;
+  text-align: justify;
+  margin-right: 50px;
+}
+.data-exercicios {
+  font-family: "Baskervville SC", serif;
+  font-style: italic;
+  font-size: 14px;
+  margin-left: 30px;
+  margin-top: 10px;
+  text-align: justify;
+  margin-right: 50px;
 }
