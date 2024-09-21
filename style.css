@@ -1,0 +1,221 @@
+:root {
+  --dark-brown: #1c110a;
+  --beige: #e4d6a7;
+  --yellow: #e9b44c;
+  --light-yellow: #fff9e6;
+  --dark-yellow: #aa8335;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-yellow);
+}
+
+header {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  font-family: "Archivo", sans-serif;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+  padding: 0;
+  position: sticky;
+  z-index: 1000;
+}
+
+header .container-fluid {
+  background-color: var(--dark-brown);
+  padding: 10px 30px 10px 30px;
+  margin: 0;
+}
+
+.logo {
+  max-height: 80px;
+  height: auto;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.logo:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+li.nav-item {
+  margin-top: 5px;
+}
+a.nav-link-inicio,
+a.nav-link-exercicios,
+a.nav-link-sobre {
+  color: var(--beige);
+  margin-right: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 5px;
+  transition: 0.3s;
+}
+
+a.nav-link-inicio:hover,
+a.nav-link-exercicios:hover,
+a.nav-link-sobre:hover {
+  margin-right: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 5px;
+  color: var(--yellow);
+  transition: 0.3s;
+}
+a.nav-link-inicio:active,
+a.nav-link-exercicios:active,
+a.nav-link-sobre:active {
+  margin-right: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 5px;
+  color: var(--dark-yellow);
+  transition: 0.3s;
+}
+button.btn.btn-outline path {
+  fill: var(--beige);
+  transition: 0.3s;
+}
+button.btn.btn-outline:hover path,
+button.btn.btn-outline:focus path {
+  transition: 0.3s;
+  fill: var(--yellow);
+}
+button.btn.btn-outline:active path {
+  fill: var(--dark-yellow);
+  transition: 0.3s;
+}
+
+button.btn.btn-outline:active {
+  border-color: var(--dark-brown);
+}
+form.d-flex .form-control {
+  background-color: var(--light-yellow);
+  border-color: var(--light-yellow);
+  color: var(--dark-brown);
+}
+
+form.d-flex .form-control::placeholder {
+  color: var(--dark-brown);
+}
+
+#title-section {
+  background-image: url("/assets/Paisagem_1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 70vw;
+  height: 70vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#title-container {
+  background-color: var(--beige);
+  opacity: 0.6;
+  padding: 50px;
+}
+#title-container h1 {
+  font-family: "Baskervville SC", serif;
+  font-size: 50px;
+  color: var(--dark-brown) !important;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-img-top {
+  max-width: 300px;
+  margin: 20px auto;
+  border-radius: 0 !important;
+}
+.card-title {
+  font-family: "Baskervville SC", serif;
+  font-size: 24px;
+  color: var(--dark-brown) !important;
+}
+.card-date-text {
+  font-family: "Baskervville SC", serif;
+  font-size: 14px;
+  color: var(--dark-brown) !important;
+}
+.see-more-box {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  border: var(--dark-brown) 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  align-self: flex-end;
+}
+.see-more-box:hover {
+  border: var(--yellow) 1px solid;
+  transition: 0.3s;
+}
+.see-more-box:active {
+  border: var(--dark-yellow) 1px solid;
+  transition: 0.3s;
+}
+
+.see-more-text {
+  margin: 2px;
+  color: var(--dark-brown);
+  transition: 0.3s;
+}
+.see-more-text:hover {
+  color: var(--yellow);
+  transition: 0.3s;
+}
+.see-more-text:active {
+  color: var(--dark-yellow);
+  transition: 0.3s;
+}
+.arrow-svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--dark-brown) !important;
+}
+
+footer {
+  background-color: var(--dark-brown);
+  color: var(--beige);
+  padding: 20px;
+  margin-bottom: 0;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+footer .flup-logo {
+  max-width: 150px;
+  transition: 0.3s ease;
+}
+footer .flup-logo:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+footer a {
+  text-decoration: none;
+  color: var(--beige);
+  transition: 0.3s;
+}
+footer a:hover {
+  color: var(--yellow);
+  transition: 0.3s;
+}
+footer a:active {
+  color: var(--dark-yellow);
+  transition: 0.3s;
+}
