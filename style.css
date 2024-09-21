@@ -130,7 +130,7 @@ form.d-flex .form-control::placeholder {
   background-color: var(--light-yellow);
 }
 #title-section-ex-1 {
-  background-image: url("assets/culto_dioniso.jpg");
+  background-image: url("assets/exercicio_1/culto_dioniso.jpg");
   background-position: center;
   background-repeat: no-repeat;
   max-height: 300px;
@@ -175,6 +175,7 @@ form.d-flex .form-control::placeholder {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: justify;
 }
 .card-img-top {
   max-width: 300px;
@@ -187,12 +188,19 @@ form.d-flex .form-control::placeholder {
   font-size: 30px;
   color: var(--dark-brown) !important;
 }
+.card-subtitle {
+  font-family: "Baskervville SC", serif;
+  font-size: 22px;
+  color: var(--dark-brown);
+  margin-bottom: 10px;
+}
 .card-date-text {
   font-family: "Baskervville SC", serif;
+  margin-top: 10px;
   font-size: 18px;
   color: var(--dark-brown) !important;
 }
-.see-more-box,
+
 .see-all-box {
   display: inline-flex;
   align-items: center;
@@ -207,20 +215,17 @@ form.d-flex .form-control::placeholder {
   margin-left: 7.5%;
   margin-bottom: 30px;
 }
-.see-more-box:hover,
-.see-all-box:hover,
-.see-more-horizontal-box:hover {
+
+.see-all-box:hover {
   border: var(--yellow) 1px solid;
   transition: 0.3s;
 }
-.see-more-box:active,
-.see-all-box:active,
-.see-more-horizontal-box:active {
+
+.see-all-box:active {
   border: var(--dark-yellow) 1px solid;
   transition: 0.3s;
 }
 
-.see-more-text,
 .see-all-text {
   margin: 2px;
   color: var(--dark-brown);
@@ -230,15 +235,11 @@ form.d-flex .form-control::placeholder {
 .see-all-text {
   font-size: 18px;
 }
-.see-more-text:hover,
-.see-all-text:hover,
-.seel-more-horizontal-text:hover {
+.see-all-text:hover {
   color: var(--yellow);
   transition: 0.3s;
 }
-.see-more-text:active,
-.see-all-text:active,
-.see-more-horizontal-text:active {
+.see-all-text:active {
   color: var(--dark-yellow);
   transition: 0.3s;
 }
@@ -308,23 +309,44 @@ footer a:active {
   font-size: 28px;
   color: var(--dark-brown) !important;
   margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 50px;
+  margin-left: 60px;
+  margin-right: 80px;
 }
 .texto-exercicios {
   font-family: "archivo", sans-serif;
   font-size: 18px;
-  margin-left: 30px;
+  margin-left: 60px;
   margin-top: 10px;
   text-align: justify;
-  margin-right: 50px;
+  margin-right: 80px;
 }
 .data-exercicios {
   font-family: "Baskervville SC", serif;
   font-style: italic;
   font-size: 14px;
-  margin-left: 30px;
+  margin-left: 60px;
   margin-top: 10px;
   text-align: justify;
-  margin-right: 50px;
+  margin-right: 80px;
+}
+.hr-exercicios {
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid var(--dark-yellow);
+}
+.photo-gallery-section img {
+  max-height: 300px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.photo-gallery-section figure {
+  text-align: center;
+}
+.photo-gallery-section figcaption {
+  font-family: "Baskervville SC", serif;
+  font-size: 16px;
+  color: var(--dark-brown) !important;
+  font-style: italic;
 }
