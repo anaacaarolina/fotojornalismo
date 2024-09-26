@@ -9,6 +9,8 @@ const imagesBasePath = "assets/";
 function setProposta() {
   const exercicio = exercicios[numero_da_proposta - 1];
 
+  document.title = "Exercício " + numero_da_proposta;
+
   document.getElementById(
     "title-section-ex"
   ).style.backgroundImage = `url(${imagesBasePath}exercicio_${numero_da_proposta}/${exercicio.imagens[0].ficheiro})`;
