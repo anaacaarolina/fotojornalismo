@@ -12,7 +12,8 @@ function setProposta() {
   document.getElementById(
     "title-section-ex"
   ).style.backgroundImage = `url(${imagesBasePath}exercicio_${numero_da_proposta}/${exercicio.imagens[0].ficheiro})`;
-
+  document.getElementById("numero-exercicio").innerText =
+    "Exercício " + numero_da_proposta;
   document.getElementById("enunciado-proposta").innerText = exercicio.proposta;
   document.getElementById("data-publicacao").innerText = exercicio.data;
   document.getElementById("corpo-resposta").innerText = exercicio.corpo;
