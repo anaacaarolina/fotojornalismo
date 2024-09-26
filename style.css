@@ -129,8 +129,7 @@ form.d-flex .form-control::placeholder {
   text-align: center;
   background-color: var(--light-yellow);
 }
-#title-section-ex-1 {
-  background-image: url("assets/exercicio_1/culto_dioniso.jpg");
+#title-section-ex {
   background-position: center;
   background-repeat: no-repeat;
   max-height: 300px;
@@ -144,13 +143,13 @@ form.d-flex .form-control::placeholder {
   background-color: var(--light-yellow);
 }
 #title-container,
-#title-container-ex-1 {
+#title-container-ex {
   background-color: var(--beige);
   opacity: 0.7;
   padding: 50px;
 }
 #title-container h1,
-#title-container-ex-1 h1 {
+#title-container-ex h1 {
   font-family: "Baskervville SC", serif;
   font-size: 50px;
   color: var(--dark-brown) !important;
@@ -333,6 +332,7 @@ footer a:active {
   width: 95%;
   margin: 0 auto;
   border: 1px solid var(--dark-yellow);
+  margin-bottom: 16px;
 }
 .photo-gallery-section img {
   max-height: 300px;
@@ -349,4 +349,7 @@ footer a:active {
   font-size: 16px;
   color: var(--dark-brown) !important;
   font-style: italic;
+}
+div#corpo-resposta {
+  margin-bottom: 20px;
 }
