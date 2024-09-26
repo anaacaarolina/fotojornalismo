@@ -9,7 +9,7 @@ function createCards() {
     const colDiv = document.createElement("div");
     colDiv.className = "col-lg-4";
     const anchor = document.createElement("a");
-    anchor.href = "exercicio.html";
+    anchor.href = "exercicio.html?id=" + (i + 1);
     const cardDiv = document.createElement("div");
     cardDiv.className = "card";
     // image
