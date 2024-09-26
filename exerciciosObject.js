@@ -19,30 +19,30 @@ const exercicios = [
       },
     ],
   },
-  {
-    id: 2,
-    proposta:
-      'Foste selecionado(a) para produzir uma matéria especial sobre: "Um dos olhares mais influentes para o fotojornalismo contemporâneo."',
-    data: "28 de setembro de 2024",
-    corpo:
-      "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto",
-    imagens: [
-      {
-        id: 1,
-        ficheiro: "bee.ico",
-        descricao: "this bee? this bee.",
-      },
-      {
-        id: 2,
-        ficheiro: "aberto.ico",
-        descricao: "gato com a boca aberta :O",
-      },
-      {
-        id: 3,
-        ficheiro: "fechado.ico",
-        descricao: "gato com a boca fechada :|",
-      },
-    ],
-  },
+  // {
+  //   id: 2,
+  //   proposta:
+  //     'Foste selecionado(a) para produzir uma matéria especial sobre: "Um dos olhares mais influentes para o fotojornalismo contemporâneo."',
+  //   data: "28 de setembro de 2024",
+  //   corpo:
+  //     "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto",
+  //   imagens: [
+  //     {
+  //       id: 1,
+  //       ficheiro: "bee.ico",
+  //       descricao: "this bee? this bee.",
+  //     },
+  //     {
+  //       id: 2,
+  //       ficheiro: "aberto.ico",
+  //       descricao: "gato com a boca aberta :O",
+  //     },
+  //     {
+  //       id: 3,
+  //       ficheiro: "fechado.ico",
+  //       descricao: "gato com a boca fechada :|",
+  //     },
+  //   ],
+  // },
 ];
 export default exercicios;
