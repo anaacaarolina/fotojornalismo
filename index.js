@@ -36,7 +36,7 @@ function createCards() {
     const cardBodyText = document.createElement("p");
     cardBodyText.className = "card-body-text";
     const corpo = limitChars(exercicio.corpo);
-    cardBodyText.innerText = corpo; //TODO: limit characters
+    cardBodyText.innerText = corpo;
     cardBodyDiv.appendChild(cardTitle);
     cardBodyDiv.appendChild(cardDateText);
     cardBodyDiv.appendChild(hr);

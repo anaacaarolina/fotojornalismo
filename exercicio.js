@@ -56,7 +56,3 @@ function setProposta() {
 }
 
 setProposta();
-
-document.addEventListener("DOMContentLoaded", function () {
-  console.log(exercicios[0].imagens[0].ficheiro);
-});

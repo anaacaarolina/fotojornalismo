@@ -19,30 +19,30 @@ const exercicios = [
       },
     ],
   },
-  // {
-  //   id: 2,
-  //   proposta:
-  //     'Foste selecionado(a) para produzir uma matéria especial sobre: "Um dos olhares mais influentes para o fotojornalismo contemporâneo."',
-  //   data: "28 de setembro de 2024",
-  //   corpo:
-  //     "texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto",
-  //   imagens: [
-  //     {
-  //       id: 1,
-  //       ficheiro: "bee.ico",
-  //       descricao: "this bee? this bee.",
-  //     },
-  //     {
-  //       id: 2,
-  //       ficheiro: "aberto.ico",
-  //       descricao: "gato com a boca aberta :O",
-  //     },
-  //     {
-  //       id: 3,
-  //       ficheiro: "fechado.ico",
-  //       descricao: "gato com a boca fechada :|",
-  //     },
-  //   ],
-  // },
+  {
+    id: 2,
+    proposta:
+      "Foste selecionado(a) para produzir uma matéria especial sobre: “Um dos olhares mais influentes para o fotojornalismo contemporâneo.” ",
+    data: "28 de setembro de 2024",
+    corpo:
+      "O trabalho da fotojornalista britânica Anastasia Taylor-Lind transcendo os limites convencionais das reportagens de conflitos. Com um foco na interseção entre guerra, deslocamento e gênero, as suas fotografias elevam o lado humano de algumas das crises mais devastadoras do nosso tempo. O compromisso de Taylor-Lind em documentar as vidas daqueles que são frequentemente esquecidos, particularmente mulheres e crianças em regiões devastadas pela guerra, faz dela uma voz indispensável no campo do fotojornalismo contemporâneo.\n O seu trabalho não se limita a capturar a violência e a destruição tipicamente associados aos conflitos; ela traz atenção para os aspetos mais silenciosos e íntimos da guerra. Através da sua perspetiva profundamente empática, Taylor-Lind ajuda-nos a ver as vidas e histórias pessoais por trás das estatísticas, e instiga-nos a reconsiderar a nossa compreensão das crises globais.\n A sua dedicação em retratar o impacto emocional e psicológico da guerra, especial sobre aqueles que são tradicionalmente sub-representados nas narrativas mediáticas é o que mais distingue a jornalista. Num mundo cheio de imagens de conflito, o trabalho de Taylor-Lind destaca-se pela sua sensibilidade e humanidade e as suas fotografias obrigam-nos a olhar além da superfície das tragédias, a testemunhar a força e coragem daqueles que têm de viver situações inimagináveis.\n Um dos mais interessantes projetos de Taylor-Lind, “5K from the Frontline”, explora de uma forma imersiva as vidas dos civis ucranianos que tiveram de aprender a viver com a guerra. O projeto foi criado em colaboração com a jornalista e antropóloga ucraniana Alisa Sopova.\n O projeto tem imagens extremamente interessantes, no entanto, foram escolhidas apenas três para serem mostradas.\n A primeira mostra a família Grinik a fazer uma piquenique em Avdiivka. A família morava perto da linha da frente da guerra (frontline), e lá permaneceu até serem forçados a fugir em 2022, depois de bombardeamentos destruírem a sua casa.\n A segunda fotografia, retrata Tatiana Batskalyova a cuidar da sua sogra de 90 anos depois de fugirem da sua casa destruída. Em 2022, após a morte da sogra, Tatiana viu-se obrigada a abandonar o apartamento que tinha renovado por conta da invasão russa.\n Finalmente, a terceira imagem, mostra Nikolay Grinik a pescar com as suas crianças em Avdiika. Em 2022, Nikolay juntou-se às Forças Armadas, e a sua família fugiu para o centro da Ucrânia.",
+    imagens: [
+      {
+        id: 1,
+        ficheiro: "grinik_family.png  ",
+        descricao: "Piquenique da família Grinik em Avdiivka, 2019",
+      },
+      {
+        id: 2,
+        ficheiro: "tatiana_batskalyova.png",
+        descricao: "Tatiana Batskalyova a cuidar da sogra, 2019",
+      },
+      {
+        id: 3,
+        ficheiro: "nikolay_grinik.png",
+        descricao: "Nikolay Grinik a pescar com os filhos, 2019",
+      },
+    ],
+  },
 ];
 export default exercicios;

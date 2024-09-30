@@ -37,6 +37,7 @@ function createCard() {
     cardDateText.className = "card-date-text";
     cardDateText.innerText = exercicio.data;
     const hr = document.createElement("hr");
+    hr.className = "card-hr";
     const cardBodyText = document.createElement("p");
     cardBodyText.className = "card-body-text";
     cardBodyText.innerText = limitChars(exercicio.corpo); //TODO: split by \n and create p elements + limit characters
