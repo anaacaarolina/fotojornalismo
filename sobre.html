@@ -51,12 +51,13 @@
                 <a class="nav-link-sobre" href="sobre.html">Sobre</a>
               </li>
               <li>
-                <form class="d-flex" role="search">
+                <form class="d-flex" role="search" id="form">
                   <input
                     class="form-control me-2"
                     type="search"
                     placeholder="Search"
                     aria-label="Search"
+                    id="search"
                   />
                   <button class="btn btn-outline" type="submit" title="Search">
                     <svg
@@ -111,15 +112,13 @@
       <p class="p-about">
         Caso queiram ver o processo de desenvolvimento do website, ele está
         disponível no meu
-        <i
-          ><a
-            href="https://github.com/anaacaarolina"
-            class="link-about"
-            target="_blank"
-            rel="noopener"
-            >Github
-          </a>
-        </i>
+        <a
+          href="https://github.com/anaacaarolina"
+          class="link-about"
+          target="_blank"
+          rel="noopener"
+          ><i>Github</i></a
+        >
         😊
       </p>
       <p class="p-about">
@@ -150,5 +149,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script type="module" src="searchBar.js"></script>
   </body>
 </html>

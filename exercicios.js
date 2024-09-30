@@ -3,23 +3,19 @@ import exercicios from "./exerciciosObject.js";
 const imagesBasePath = "assets/";
 const charLimit = 500;
 
-function createCard() {
-  for (let i = 0; i < exercicios.length; i++) {
-    const exercicio = exercicios[i];
+function createCards(ids) {
+  ids.forEach((id) => {
+    const exercicio = exercicios[id - 1];
     const colDiv = document.createElement("div");
     colDiv.className = "col-lg-12";
     const anchor = document.createElement("a");
-    anchor.href = "exercicio.html?id=" + (i + 1);
+    anchor.href = "exercicio.html?id=" + id;
     const cardDiv = document.createElement("div");
     cardDiv.className = "card flex-row";
     // image
     const img = document.createElement("img");
     img.src =
-      imagesBasePath +
-      "exercicio_" +
-      (i + 1) +
-      "/" +
-      exercicio.imagens[0].ficheiro;
+      imagesBasePath + "exercicio_" + id + "/" + exercicio.imagens[0].ficheiro;
     img.className = "card-img-left";
     img.alt = exercicio.imagens[0].descricao;
     // body
@@ -28,7 +24,7 @@ function createCard() {
     const cardTitle = document.createElement("h5");
     cardTitle.className = "card-title";
     cardTitle.id = "";
-    cardTitle.innerText = "Exercício " + (i + 1);
+    cardTitle.innerText = "Exercício " + id;
     const cardSubtitle = document.createElement("h5");
     cardSubtitle.className = "card-subtitle";
     cardSubtitle.id = "card-subtitle";
@@ -51,7 +47,7 @@ function createCard() {
     anchor.appendChild(cardDiv);
     colDiv.appendChild(anchor);
     document.getElementById("exercicios-row-1").appendChild(colDiv);
-  }
+  });
 }
 
 function limitChars(corpo) {
@@ -65,4 +61,13 @@ function limitChars(corpo) {
   return limitedCorpo;
 }
 
-createCard(1);
+function getIds() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const ids = urlParams.get("ids");
+  if (!ids) return null;
+  return ids.split(",").map((id) => parseInt(id, 10));
+}
+
+const ids = getIds();
+if (ids) createCards(ids);
+else createCards(Array.from({ length: exercicios.length }, (_, i) => i + 1));
