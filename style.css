@@ -304,6 +304,18 @@ footer a:active {
   text-align: justify;
   margin-right: 5%;
 }
+.link-about {
+  color: var(--dark-brown);
+  transition: 0.3s ease;
+}
+.link-about:hover {
+  color: var(--yellow);
+  transition: 0.3s ease;
+}
+.link-about:active {
+  color: var(--dark-yellow);
+  transition: 0.3s ease;
+}
 #meme-cat {
   max-width: 300px;
   display: block;
