@@ -18,7 +18,7 @@ function setProposta() {
     "Exercício " + numero_da_proposta;
   document.getElementById("enunciado-proposta").innerText = exercicio.proposta;
   document.getElementById("data-publicacao").innerText = exercicio.data;
-  document.getElementById("corpo-resposta").innerText = exercicio.corpo;
+  document.getElementById("corpo-resposta").innerHTML = exercicio.corpo;
 
   //TODO: dynamically create images
   const colMaxSize =

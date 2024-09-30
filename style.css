@@ -304,15 +304,18 @@ footer a:active {
   text-align: justify;
   margin-right: 5%;
 }
-.link-about {
+.link-about,
+.links-exercicios {
   color: var(--dark-brown);
   transition: 0.3s ease;
 }
-.link-about:hover {
+.link-about:hover,
+.links-exercicios:hover {
   color: var(--yellow);
   transition: 0.3s ease;
 }
-.link-about:active {
+.link-about:active,
+.links-exercicios:active {
   color: var(--dark-yellow);
   transition: 0.3s ease;
 }

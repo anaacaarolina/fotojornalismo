@@ -36,7 +36,7 @@ function createCards(ids) {
     hr.className = "card-hr";
     const cardBodyText = document.createElement("p");
     cardBodyText.className = "card-body-text";
-    cardBodyText.innerText = limitChars(exercicio.corpo); //TODO: split by \n and create p elements + limit characters
+    cardBodyText.innerHTML = limitChars(exercicio.corpo); //TODO: split by \n and create p elements + limit characters
     cardBodyDiv.appendChild(cardTitle);
     cardBodyDiv.appendChild(cardSubtitle);
     cardBodyDiv.appendChild(cardDateText);
