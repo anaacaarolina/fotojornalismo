@@ -371,10 +371,14 @@ footer a:active {
   color: var(--dark-brown) !important;
   font-style: italic;
 }
+
+.modal-footer {
+  font-family: "archivo", sans-serif;
+}
+
 div#corpo-resposta {
   margin-bottom: 20px;
 }
-
 @media screen and (max-width: 768px) {
   #title-container h1,
   #title-container-ex h1 {

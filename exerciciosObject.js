@@ -56,5 +56,67 @@ const exercicios = [
       },
     ],
   },
+  {
+    id: 3,
+    proposta:
+      "Fotografar uma personagem (pessoa, natureza, objeto...) pouco explorada fotograficamente no campus da FLUP",
+    data: "17 de outubro de 2024",
+    corpo:
+      "<p>Enquanto procurava uma personagem para fotografar, passei por dois copos de café numa mesa do bar, empilhados, um dentro do outro. Não foi uma decisão cuidadosa nem premeditada, mas sim algo instintivo. Passei pelos copos, reparei na maneira como eram atingidos pela luz, e senti que era algo que merecia ser capturado. Acredito que tenha sido a natureza simples, até mundana da cena. Enquanto o sujeito da fotografia é um objeto comum, acho que personifica algo mais profundo quando visto através dos olhos de um estudante universitário. Café é um grande companheiro para muitos estudantes, especialmente na FLUP – que deve ter os cafés mais baratos dentro da Academia do Porto, sendo apenas 25 cêntimos. É o café que nos dá energia e motivação de manhã ou nas sessões de estudo que se prolongam pela noite dentro.</p>" +
+      "<p>Quando pedi ao ChatGPT para me ajudar a interpretar a imagem, ele disse coisas muito bonitas. Começou por dizer que os copos, estando empilhados, representam as camadas da experiência estudantil, as responsabilidades acumuladas, a justaposição dos momentos de pausa entre as aulas, trabalhos, e vida pessoal. Continuou, desta vez sobre o facto dos copos serem descartáveis, a dizer que isto nos fala sobre a natureza transitória da vida universitária – “Estudantes vão e vêm, as aulas mudam, e, assim como eles, os copos são usados por um momento e depois deitados fora”</p>" +
+      "<p>Quero com isto dizer que através desta imagem, eu queria transmitir que até uma coisa que passa tantas vezes despercebida como um copo de café pode trazer consigo um grande significado. </p>" +
+      "<p>Com base no que a ferramenta de Inteligência Artificial me disse anteriormente, comecei a pensar nos outros aspetos da imagem. Algo muito interessante nesta imagem é a luz. Assim como o amigo virtual fez, tentei criar uma analogia para o que se vê na imagem, mais concretamente na iluminação, na sombra, e no reflexo. Temos, então, a parte do copo iluminada que pode simbolizar a claridade e energia que o café nos oferece, o <i>boost </i>que precisamos quando os horários exaustivos se tornam demasiado. Por outro lado, a sombra representa a exaustão que o café disfarça, a fatiga inevitável que acompanha a vida académica. No meio, o reflexo dos copos na mesa cria uma interação entre a luz e a sombra, e sugere o tipo de equilíbrio que os estudantes tanto procuram: a necessidade de estar acordados, e o desejo pelo descanso. </p>" +
+      "<p>Em termos de composição, a fotografia é bastante básica. Não há ideia de movimento e os copos mostram-se perfeitamente intactos, sem grandes estragos, apenas vestígios da bebida que transportaram. Mas é por isto que a imagem se torna tão interessante, na minha opinião. Há um sossego inerente na maneira como os copos estão pousados na mesa, completamente alheios a todas as atividades que os rodeiam. </p>" +
+      "<p>Acaba por ser irónico. Café raramente é associado a calma. Bebemos café para acordar. Mas a ideia que esta fotografia nos dá é que alguém teve um momento de pausa e descontração, sentado naquela mesa de esplanada – um momento tão precioso no meio de toda a correria da vida estudantil. </p>" +
+      "<p>Acho incrível ter conseguido capturar algo tão interessante por pura coincidência. É só lixo que alguém deixou ficar na mesa. Mas todos elementos juntos – os copos, os raios de sol que os iluminam, a sombra que deixam ficar, a mexa que os reflete – juntam-se para criar uma cena imensamente agradável, que mostra aspetos como a energia e a exaustão, frenesins e pausas, e – usando as palavras que o ChatGPT tão prestavelmente me deu – a descartabilidade e o significado.</p>",
+    imagens: [
+      {
+        id: 1,
+        ficheiro: "copo_na_mesa.png",
+        descricao: "Dois copos de café numa mesa de esplanada",
+      },
+      {
+        id: 2,
+        ficheiro: "copo_no_chao.png",
+        descricao: "Um copo de café no chão",
+      },
+      {
+        id: 3,
+        ficheiro: "copo_nas_plantas.png",
+        descricao: "Um copo de café no chão entre plantas",
+      },
+      {
+        id: 4,
+        ficheiro: "copo_no_cinzeiro.png",
+        descricao:
+          'Copo de café num cinzeiro, com a frase "O Dia Começa Depois do Café"',
+      },
+      {
+        id: 5,
+        ficheiro: "chavenas_na_mesa.png",
+        descricao: "Três Chavenas e um copo de água numa mesa",
+      },
+      {
+        id: 6,
+        ficheiro: "maquina_de_cafe.png",
+        descricao: "Funcionário do bar a preparar dois cafés",
+      },
+      {
+        id: 7,
+        ficheiro: "copo_no_lixo.png",
+        descricao: "Caixote do lixo cheio de copos de café",
+      },
+      {
+        id: 8,
+        ficheiro: "copo_na_maquina.png",
+        descricao: "Café a sair da máquina",
+      },
+      {
+        id: 9,
+        ficheiro: "nikon_d5600.png",
+        descricao: "Câmara fotográfica usada neste exercício",
+      },
+    ],
+  },
 ];
 export default exercicios;
