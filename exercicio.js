@@ -41,14 +41,6 @@ function setProposta() {
     img.setAttribute("data-bs-toggle", "modal");
     img.setAttribute("data-bs-target", "#exampleModal");
 
-    img.addEventListener("click", () => {
-      const modalImg = document.getElementById("modal-img");
-      const modalFooter = document.getElementById("modal-footer");
-      modalImg.src = img.src;
-      modalImg.alt = img.alt;
-      modalFooter.innerText = img.alt;
-    });
-
     const modalDiv = document.createElement("div");
     modalDiv.className = "modal fade";
     modalDiv.id = "exampleModal";
@@ -71,9 +63,10 @@ function setProposta() {
     imgModal.className = "img-fluid";
 
     const modalFooter = document.createElement("div");
+    modalFooter.id = "modal-footer";
     modalFooter.className = "modal-footer";
     modalBody.style.textAlign = "center";
-    modalFooter.innerText = imageObj.descricao;
+    modalFooter.innerHTML = imageObj.descricao;
 
     // Create the figcaption element
     const figcaption = document.createElement("figcaption");
@@ -85,6 +78,16 @@ function setProposta() {
     modalDialog.appendChild(modalContent);
     modalDiv.appendChild(modalDialog);
     document.body.appendChild(modalDiv);
+
+    img.addEventListener("click", () => {
+      //img
+      const modalImg = document.getElementById("modal-img");
+      modalImg.src = img.src;
+      modalImg.alt = img.alt;
+      //footer
+      const footerModal = document.getElementById("modal-footer");
+      footerModal.innerText = imageObj.descricao;
+    });
 
     // Append the image and figcaption to the figure
     figure.appendChild(img);
