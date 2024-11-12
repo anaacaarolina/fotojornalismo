@@ -130,57 +130,57 @@ const exercicios = [
     imagens: [
       {
         id: 1,
-        ficheiro: "sao_bento.jpg",
+        ficheiro: "sao_bento.png",
         descricao: "Dois comboios na estação de São Bento",
       },
       {
         id: 2,
-        ficheiro: "obras_sao_bento.jpg",
+        ficheiro: "obras_sao_bento.png",
         descricao: "Obras perto da estação de São Bento",
       },
       {
         id: 3,
-        ficheiro: "maquinas_obras.jpg",
+        ficheiro: "maquinas_obras.png",
         descricao: "Máquinas das obras perto da estação de São Bento",
       },
       {
         id: 4,
-        ficheiro: "metro.jpg",
+        ficheiro: "metro.png",
         descricao: "Metro do Porto a chegar à estação",
       },
       {
         id: 5,
-        ficheiro: "escadas_metro.jpg",
+        ficheiro: "escadas_metro.png",
         descricao: 'Escadas da estação de metro "Bolhão"',
       },
       {
         id: 6,
-        ficheiro: "piano_bolhao.jpg",
+        ficheiro: "piano_bolhao.png",
         descricao: "Pessoa a tocar piano no Mercado do Bolhão",
       },
       {
         id: 7,
-        ficheiro: "santa_catarina.jpg",
+        ficheiro: "santa_catarina.png",
         descricao: "Rua de Santa Catarina",
       },
       {
         id: 8,
-        ficheiro: "rua_carros.jpg",
+        ficheiro: "rua_carros.png",
         descricao: "Uma rua com pessoas e carros",
       },
       {
         id: 9,
-        ficheiro: "mala.jpg",
+        ficheiro: "mala.png",
         descricao: "Pessoa a passar com uma mala",
       },
       {
         id: 10,
-        ficheiro: "camiao_autoestrada.jpg",
+        ficheiro: "camiao_autoestrada.png",
         descricao: "Um camião na autoestrada",
       },
       {
         id: 11,
-        ficheiro: "autoestrada.jpg",
+        ficheiro: "autoestrada.png",
         descricao: "Trânsito na autoestrada",
       },
     ],
