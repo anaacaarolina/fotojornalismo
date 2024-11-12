@@ -118,5 +118,72 @@ const exercicios = [
       },
     ],
   },
+  {
+    id: 4,
+    proposta: "Ensaio Fotográfico: Paisagens Sonoras da Cidade",
+    data: "12 de novembro de 2024",
+    corpo:
+      "<p>O tema deste Ensaio Fotográfico nasce do convite para explorar as <i>Paisagens Sonoras da Cidade</i><p>" +
+      "<p>Para trazer diversidade às imagens, organizei a abordagens em três categorias: <b>atividades humanas</b>, <b>ruído das obras</b> e o <b>trânsito incessante</b> que pontua o quotidiano de todos na Invicta. </p>" +
+      "<p>Na exploração destes temas, optei por enquadramentos gerais, como se fossem visões espontâneas de quem passeia pelo Porto, a observar e a ouvir o que o envolve.<p>" +
+      "<p>A câmara usada neste ensaio foi a Nikon D5600.</p>",
+    imagens: [
+      {
+        id: 1,
+        ficheiro: "sao_bento.jpg",
+        descricao: "Dois comboios na estação de São Bento",
+      },
+      {
+        id: 2,
+        ficheiro: "obras_sao_bento.jpg",
+        descricao: "Obras perto da estação de São Bento",
+      },
+      {
+        id: 3,
+        ficheiro: "maquinas_obras.jpg",
+        descricao: "Máquinas das obras perto da estação de São Bento",
+      },
+      {
+        id: 4,
+        ficheiro: "metro.jpg",
+        descricao: "Metro do Porto a chegar à estação",
+      },
+      {
+        id: 5,
+        ficheiro: "escadas_metro.jpg",
+        descricao: 'Escadas da estação de metro "Bolhão"',
+      },
+      {
+        id: 6,
+        ficheiro: "piano_bolhao.jpg",
+        descricao: "Pessoa a tocar piano no Mercado do Bolhão",
+      },
+      {
+        id: 7,
+        ficheiro: "santa_catarina.jpg",
+        descricao: "Rua de Santa Catarina",
+      },
+      {
+        id: 8,
+        ficheiro: "rua_carros.jpg",
+        descricao: "Uma rua com pessoas e carros",
+      },
+      {
+        id: 9,
+        ficheiro: "mala.jpg",
+        descricao: "Pessoa a passar com uma mala",
+      },
+      {
+        id: 10,
+        ficheiro: "camiao_autoestrada.jpg",
+        descricao: "Um camião na autoestrada",
+      },
+      {
+        id: 11,
+        ficheiro: "autoestrada.jpg",
+        descricao: "Trânsito na autoestrada",
+      },
+    ],
+  },
 ];
 export default exercicios;
